@@ -1,0 +1,21 @@
+1712573721030	geckodriver	INFO	Listening on 127.0.0.1:64017
+1712573724094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64018" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilehUBYrx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712573724642	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712573724766	Marionette	INFO	Listening on port 64026
+WebDriver BiDi listening on ws://127.0.0.1:64018
+Read port: 64026
+1712573724947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64018/devtools/browser/0a653a95-c443-4515-a734-91985d6fd35d
+1712573756342	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 29: Script terminated by timeout at:
+ul@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:7662
+value@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:47:6681
+n@https://diac--preprod.sandbox.my.site.com/components/o11y/web_vitals.js:1:743
+t@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5722
+
+1712574573748	Marionette	INFO	Stopped listening on port 64026
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

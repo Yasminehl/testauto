@@ -1,0 +1,20 @@
+1713256750887	geckodriver	INFO	Listening on 127.0.0.1:63972
+1713256753944	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileJ9XHgu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713256754464	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713256754599	Marionette	INFO	Listening on port 63992
+WebDriver BiDi listening on ws://127.0.0.1:63973
+Read port: 63992
+1713256754801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63973/devtools/browser/3458c0ce-3a7a-4fb9-9f39-2631a8c1362e
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 7252 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082730, line 127: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082730:127:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082730:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082730:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082730:33:281
+
+1713256773359	Marionette	INFO	Stopped listening on port 63992
+Dynamically enable window occlusion 1

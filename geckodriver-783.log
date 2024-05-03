@@ -1,0 +1,29 @@
+1713273674804	geckodriver	INFO	Listening on 127.0.0.1:59701
+1713273677864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59702" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilee6lM62"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713273678479	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713273678672	Marionette	INFO	Listening on port 59714
+WebDriver BiDi listening on ws://127.0.0.1:59702
+Read port: 59714
+1713273678912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59702/devtools/browser/14de612e-b3a9-4cdb-9294-1336dd37362f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1713273688943	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 5506 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404090101/slotcar_library_fy2021.js?bust=31082817, line 127: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404090101/slotcar_library_fy2021.js?bust=31082817:127:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404090101/slotcar_library_fy2021.js?bust=31082817:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404090101/slotcar_library_fy2021.js?bust=31082817:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404090101/slotcar_library_fy2021.js?bust=31082817:33:281
+
+1713273691250	Marionette	INFO	Stopped listening on port 59714
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1713273691334	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 47"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:47
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:570

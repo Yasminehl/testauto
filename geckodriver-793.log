@@ -1,0 +1,20 @@
+1713363615938	geckodriver	INFO	Listening on 127.0.0.1:59248
+1713363618992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofiledTDfX5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713363619671	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713363619910	Marionette	INFO	Listening on port 59259
+WebDriver BiDi listening on ws://127.0.0.1:59249
+Read port: 59259
+1713363620286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59249/devtools/browser/0eb880d4-e062-4c90-b93e-789d48d61f31
+1713363649704	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: "buildList failed: " ({})
+console.error: "buildList failed: " ({})
+JavaScript warning: https://diac--uatrun.sandbox.my.site.com/B2BEV/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 29: Script terminated by timeout at:
+t@https://diac--uatrun.sandbox.my.site.com/B2BEV/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5668
+
+1713426884073	Marionette	INFO	Stopped listening on port 59259
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

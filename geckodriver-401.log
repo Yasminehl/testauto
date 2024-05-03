@@ -1,0 +1,19 @@
+1712657275400	geckodriver	INFO	Listening on 127.0.0.1:50777
+1712657278475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50778" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilempkO9o"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712657279030	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712657279166	Marionette	INFO	Listening on port 50796
+WebDriver BiDi listening on ws://127.0.0.1:50778
+Read port: 50796
+1712657279338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50778/devtools/browser/45b64e7f-eb07-4aa5-be0a-0b1693ca89ea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712657284029	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712657285374	Marionette	INFO	Stopped listening on port 50796
+JavaScript warning: https://fundingchoicesmessages.google.com/f/AGSKWxWZdQ_5i2ibPQmV0Fse59Fg_vU07nevvzk_TbMk42dFT3SZJ-kwL2bW2tfjg7XumqekdWxA_s8_VSsDQYdwmcjfO3CVjjpl8YPolWg3wfdEFY_rb91de2SrD78EgFNnB51HdZxR4g==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzEyNjU3Mjg0LDg5MDAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly95b3BtYWlsLmNvbS9mci93bSIsbnVsbCxbWzgsInhLck1qVE9UNUkwIl0sWzksImZyIl0sWzE4LCJbW1swXV1dIl0sWzIwLCJbbnVsbCxudWxsLFszMTA4MjE0Nl0sbnVsbCwxMF0iXSxbMTksIjIiXV1d, line 7: Script terminated by timeout at:
+oo@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.xKrMjTOT5I0.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMwnJeKptSGoCjMhQiek2d-G9bEBXw/m=ad_blocking_detection_executable:7:1527
+oo/<@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.xKrMjTOT5I0.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMwnJeKptSGoCjMhQiek2d-G9bEBXw/m=ad_blocking_detection_executable:7:1630
+
+Dynamically enable window occlusion 1

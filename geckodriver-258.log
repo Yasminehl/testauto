@@ -1,0 +1,21 @@
+1712577141051	geckodriver	INFO	Listening on 127.0.0.1:53266
+1712577144123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilev9OiBO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712577144705	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712577144880	Marionette	INFO	Listening on port 53278
+WebDriver BiDi listening on ws://127.0.0.1:53267
+Read port: 53278
+1712577145106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53267/devtools/browser/1f93cd88-8169-49ee-a4d3-4aa9209ddff8
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 3086 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js, line 126: Script terminated by timeout at:
+qi/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js:126:389
+zd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js:33:292
+yd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js:33:92
+zd/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js:33:281
+
+1712577168567	Marionette	INFO	Stopped listening on port 53278
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

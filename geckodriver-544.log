@@ -1,0 +1,15 @@
+1712883327187	geckodriver	INFO	Listening on 127.0.0.1:52543
+1712883330249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52544" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilerXQJwd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712883330773	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712883330890	Marionette	INFO	Listening on port 52568
+WebDriver BiDi listening on ws://127.0.0.1:52544
+Read port: 52568
+1712883331091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52544/devtools/browser/5a051e54-6ce1-4610-8ad6-ed8efde91c3c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 3168 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712883361774	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712883371730	Marionette	INFO	Stopped listening on port 52568
+Dynamically enable window occlusion 1

@@ -1,0 +1,19 @@
+1713255916666	geckodriver	INFO	Listening on 127.0.0.1:54544
+1713255919731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileG3vW1W"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713255920402	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713255920604	Marionette	INFO	Listening on port 54555
+WebDriver BiDi listening on ws://127.0.0.1:54545
+Read port: 54555
+1713255920903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54545/devtools/browser/f4056293-2277-41ee-ba79-7cc7dec760d2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1713255927071	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713255928638	Marionette	INFO	Stopped listening on port 54555
+JavaScript warning: https://fundingchoicesmessages.google.com/f/AGSKWxWSLrgJJBw1aYZMR9q-G65f9xQyXbpZolc5kGJuQLF490BLy-8fnRyfiyiUV89oE-Ew91iJf6BuRD6CYcqMIh7ICf_JieO8tkBJ0UIEvBrGze0TabrA1TNkST8dDUPkDt3AOyq1GA==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzEzMjU1OTI4LDE3ODAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly95b3BtYWlsLmNvbS9mci93bSIsbnVsbCxbWzgsImVjSkhveEpfWDh3Il0sWzksImZyIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIyIl1dXQ, line 7: Script terminated by timeout at:
+no@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.ecJHoxJ_X8w.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMwsnOzMjPRGBCq50WKRbtw731PIxA/m=ad_blocking_detection_executable:7:1527
+no/<@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.ecJHoxJ_X8w.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMwsnOzMjPRGBCq50WKRbtw731PIxA/m=ad_blocking_detection_executable:7:1630
+
+Dynamically enable window occlusion 1

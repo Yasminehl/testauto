@@ -1,0 +1,17 @@
+1712570267620	geckodriver	INFO	Listening on 127.0.0.1:56870
+1712570270664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56871" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileFzbQqg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712570271190	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712570271324	Marionette	INFO	Listening on port 56881
+WebDriver BiDi listening on ws://127.0.0.1:56871
+Read port: 56881
+1712570271523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56871/devtools/browser/6e747a29-ea6e-45cd-99f8-c723b49503be
+1712570283188	Marionette	INFO	Stopped listening on port 56881
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.

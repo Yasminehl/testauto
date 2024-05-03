@@ -1,0 +1,21 @@
+1712882544495	geckodriver	INFO	Listening on 127.0.0.1:50992
+1712882547531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileSUeMu9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712882548066	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712882548197	Marionette	INFO	Listening on port 51004
+WebDriver BiDi listening on ws://127.0.0.1:50993
+Read port: 51004
+1712882548376	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50993/devtools/browser/b40c54cb-c7d3-4e16-8b21-63ce5865e715
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712882551814	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712882553238	Marionette	INFO	Stopped listening on port 51004
+JavaScript warning: https://yopmail.com/ver/9.2/webmail.js, line 1: Script terminated by timeout at:
+refr/nIId<@https://yopmail.com/ver/9.2/webmail.js:1:10644
+
+JavaScript warning: https://cdn.ampproject.org/rtv/012404020207000/v0/amp-fit-text-0.1.mjs, line 2: Script terminated by timeout at:
+s@https://cdn.ampproject.org/rtv/012404020207000/v0/amp-fit-text-0.1.mjs:2:3287
+
+Dynamically enable window occlusion 1

@@ -1,0 +1,22 @@
+1712876792290	geckodriver	INFO	Listening on 127.0.0.1:57894
+1712876795320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilehe3NRc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712876795828	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712876795949	Marionette	INFO	Listening on port 57902
+WebDriver BiDi listening on ws://127.0.0.1:57895
+Read port: 57902
+1712876796142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57895/devtools/browser/039c0246-423a-4cb5-a766-31268ff67af8
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lScVdaYzR4BdASXTf6i6_QUQCAjzvuVRUDaYOWggZbg.js line 2 > eval line 5325 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 457 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589, line 127: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:127:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:33:281
+
+1712876806559	Marionette	INFO	Stopped listening on port 57902
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

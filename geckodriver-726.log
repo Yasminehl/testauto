@@ -1,0 +1,24 @@
+1713179211255	geckodriver	INFO	Listening on 127.0.0.1:57646
+1713179214319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileMNjYZw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713179214848	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713179214977	Marionette	INFO	Listening on port 57661
+WebDriver BiDi listening on ws://127.0.0.1:57647
+Read port: 57661
+1713179215178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57647/devtools/browser/67697302-d8f3-4f61-9243-49fd86fa54d2
+1713179246657	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 1: Script terminated by timeout at:
+$t@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:1:3845
+yl@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:11990
+Ml@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:38:249
+Kl@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:47:5410
+xn@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5499
+t@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5696
+
+1713187689735	Marionette	INFO	Stopped listening on port 57661
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

@@ -1,0 +1,41 @@
+1712884012106	geckodriver	INFO	Listening on 127.0.0.1:54297
+1712884015190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileACxLZw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712884015729	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712884015840	Marionette	INFO	Listening on port 54309
+WebDriver BiDi listening on ws://127.0.0.1:54298
+Read port: 54309
+1712884016038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54298/devtools/browser/81323a3d-c244-4ca2-8a7a-4e25d824c46d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712884019785	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712884021197	Marionette	INFO	Stopped listening on port 54309
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval, line 1516: Script terminated by timeout at:
+Q@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:5109
+v8/<@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:21902
+gb@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:16041
+@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:37412
+vg@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:20023
+mv@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:9022
+b@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:6066
+v8@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:21390
+U@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:18737
+@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:39676
+bE@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:9543
+Kv@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:25973
+Q@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:4768
+P8@https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval:1516:19572
+va/<@https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html:27:191
+va@https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html:27:129
+ta/d/<@https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html:26:436
+J@https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html:16:39
+ha/this.next@https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html:17:89
+k@https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html:24:287
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404090101/show_ads_impl_fy2021.js?bust=31082631, line 554: Script terminated by timeout at:
+iP/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404090101/show_ads_impl_fy2021.js?bust=31082631:554:94
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

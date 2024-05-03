@@ -1,0 +1,27 @@
+1712658374348	geckodriver	INFO	Listening on 127.0.0.1:52430
+1712658377417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileZwXdVi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712658377972	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712658378120	Marionette	INFO	Listening on port 52443
+Read port: 52443
+WebDriver BiDi listening on ws://127.0.0.1:52431
+1712658378199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52431/devtools/browser/70fddbdd-bc11-4c6b-8915-cd75ab8fe8d6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712658386018	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 499 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 2440 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588, line 127: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:127:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:33:281
+
+1712658390060	Marionette	INFO	Stopped listening on port 52443
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

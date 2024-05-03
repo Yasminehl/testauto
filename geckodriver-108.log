@@ -1,0 +1,17 @@
+1712059150399	geckodriver	INFO	Listening on 127.0.0.1:62600
+1712059153482	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileWSNrt1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712059154220	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712059154433	Marionette	INFO	Listening on port 62610
+WebDriver BiDi listening on ws://127.0.0.1:62601
+Read port: 62610
+1712059154764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62601/devtools/browser/aa7f5d52-8b0d-4518-a151-ec505733c6da
+1712059184697	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/sfsites/c/resource/MainResources/pagescripts.js?v=3, line 55: Script terminated by timeout at:
+@https://diac--preprod.sandbox.my.site.com/sfsites/c/resource/MainResources/pagescripts.js?v=3:55:32
+
+1712068947312	Marionette	INFO	Stopped listening on port 62610
+Dynamically enable window occlusion 1

@@ -1,0 +1,15 @@
+1712660443269	geckodriver	INFO	Listening on 127.0.0.1:55364
+1712660446330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileXoGyvL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712660446866	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712660446990	Marionette	INFO	Listening on port 55374
+WebDriver BiDi listening on ws://127.0.0.1:55365
+Read port: 55374
+1712660447176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55365/devtools/browser/fbecb428-0bc8-4ebb-a887-cb9cd5ad39f0
+1712660477433	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712660482715	Marionette	INFO	Stopped listening on port 55374
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

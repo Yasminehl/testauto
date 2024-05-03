@@ -1,0 +1,23 @@
+1712936698291	geckodriver	INFO	Listening on 127.0.0.1:53038
+1712936701347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53039" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileiDuvc6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712936702185	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712936702407	Marionette	INFO	Listening on port 53049
+WebDriver BiDi listening on ws://127.0.0.1:53039
+Read port: 53049
+1712936702754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53039/devtools/browser/804952e3-f2fb-4119-a1c7-570203a4a864
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 1539 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712936732550	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713165930091	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5609129721109980, line 177: Script terminated by timeout at:
+co@https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5609129721109980:177:347
+bo@https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5609129721109980:176:479
+$n/<@https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5609129721109980:177:127
+
+1713165948397	Marionette	INFO	Stopped listening on port 53049
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

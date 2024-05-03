@@ -1,0 +1,20 @@
+1712587622700	geckodriver	INFO	Listening on 127.0.0.1:62321
+1712587625779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62322" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileyHHeFC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712587626783	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712587626987	Marionette	INFO	Listening on port 62329
+WebDriver BiDi listening on ws://127.0.0.1:62322
+Read port: 62329
+1712587627349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62322/devtools/browser/e64baa8f-98e6-4e10-91b0-1a5fb0d331a0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712587633173	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712587634917	Marionette	INFO	Stopped listening on port 62329
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/show_ads_impl_fy2021.js, line 548: Script terminated by timeout at:
+ZO/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/show_ads_impl_fy2021.js:548:94
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

@@ -1,0 +1,20 @@
+1712882379563	geckodriver	INFO	Listening on 127.0.0.1:50470
+1712882382623	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50471" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilelojdfr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712882383202	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712882383332	Marionette	INFO	Listening on port 50478
+Read port: 50478
+WebDriver BiDi listening on ws://127.0.0.1:50471
+1712882383412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50471/devtools/browser/85795ade-619e-4074-a4cd-a0500118e94f
+1712882413236	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 50: Script terminated by timeout at:
+getOwnPropertyDescriptor@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:50:9506
+buildSessionData@https://diac--preprod.sandbox.my.site.com/beb2b/resource/1701180846000/MainResources/scripts.js:11:33
+@https://diac--preprod.sandbox.my.site.com/sfsites/c/resource/MainResources/pagescripts.js?v=3:47:46
+
+1712882455114	Marionette	INFO	Stopped listening on port 50478
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

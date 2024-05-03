@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-04-30T12:14:13.421287" rpa="false" schemaversion="5">
+<suite id="s1" name="Belg" source="C:\Users\yasmine.hilali\PycharmProjects\diac\Pprod\B2B\Belg.robot">
+<test id="s1-t1" name="Vehicules" line="16">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:13.671203" level="INFO">Opening browser 'edge' to base url 'https://yopmail.com/fr/'.</msg>
+<arg>${urlEmail}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-30T12:14:13.671203" elapsed="4.640140"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-04-30T12:14:18.312350" elapsed="0.059848"/>
+</kw>
+<kw name="Generate Random String" owner="String">
+<msg time="2024-04-30T12:14:18.373196" level="INFO">${random_letters} = nfKSQmpS</msg>
+<var>${random_letters}</var>
+<arg>8</arg>
+<arg>[LETTERS]</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2024-04-30T12:14:18.373196" elapsed="0.001000"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@id='login']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:14:18.374196" elapsed="0.044548"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:18.422166" level="INFO">Typing text 'nfKSQmpS' into text field '//input[@id='login']'.</msg>
+<arg>//input[@id='login']</arg>
+<arg>${random_letters}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:14:18.419915" elapsed="0.141899"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:14:23.562787" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:14:18.562785" elapsed="5.000002"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='md']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:14:23.562787" elapsed="0.015007"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:23.578892" level="INFO">Clicking element '//button[@class='md']'.</msg>
+<arg>//button[@class='md']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:14:23.578892" elapsed="1.449409"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:14:30.030000" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:14:25.029415" elapsed="5.000585"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@id='cpalias']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:14:30.031007" elapsed="0.018014"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:30.050005" level="INFO">Clicking element '//button[@id='cpalias']'.</msg>
+<arg>//button[@id='cpalias']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:14:30.050005" elapsed="0.073937"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-30T12:14:30.126946" elapsed="2.691626"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:32.820663" level="INFO">Opening browser 'edge' to base url 'https://diac--preprod.sandbox.my.site.com/beb2b/s/?language=fr_BE'.</msg>
+<arg>https://diac--preprod.sandbox.my.site.com/beb2b/s/?language=fr_BE</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-30T12:14:32.819569" elapsed="6.696486"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-04-30T12:14:39.517054" elapsed="0.033727"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@id='teal-consent-prompt-submit']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:14:39.551783" elapsed="4.260903"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:43.812686" level="INFO">Clicking element '//button[@id='teal-consent-prompt-submit']'.</msg>
+<arg>//button[@id='teal-consent-prompt-submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:14:43.812686" elapsed="0.158579"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:14:48.972310" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:14:43.971914" elapsed="5.000396"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='contactEmail']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:14:48.973319" elapsed="0.018090"/>
+</kw>
+<kw name="Get Clipboard Content">
+<kw name="Run Keyword And Return" owner="BuiltIn">
+<kw name="Evaluate" owner="BuiltIn">
+<arg>pyperclip.paste()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-04-30T12:14:48.993409" elapsed="0.002092"/>
+</kw>
+<msg time="2024-04-30T12:14:48.996660" level="INFO">Returning from the enclosing user keyword.</msg>
+<var>${content}</var>
+<arg>Evaluate</arg>
+<arg>pyperclip.paste()</arg>
+<doc>Runs the specified keyword and returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-04-30T12:14:48.993409" elapsed="0.003251"/>
+</kw>
+<return>
+<value>${content}</value>
+<status status="NOT RUN" start="2024-04-30T12:14:48.996660" elapsed="0.000000"/>
+</return>
+<msg time="2024-04-30T12:14:48.996660" level="INFO">${clipboard_content} = alt.zw-8odho4hn@yopmail.com</msg>
+<var>${clipboard_content}</var>
+<doc>Get the content of the clipboard</doc>
+<status status="PASS" start="2024-04-30T12:14:48.992403" elapsed="0.004257"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:48.997679" level="INFO">Typing text 'alt.zw-8odho4hn@yopmail.com' into text field '//input[@data-input='contactEmail']'.</msg>
+<arg>${element_locator}</arg>
+<arg>${clipboard_content}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:14:48.996660" elapsed="0.200081"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:14:54.197186" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:14:49.196741" elapsed="5.000445"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:14:54.198192" elapsed="0.013016"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:54.212195" level="INFO">Clicking element '//button[@class='btn btn-primary']'.</msg>
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:14:54.212195" elapsed="0.059307"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:14:59.274169" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:14:54.272542" elapsed="5.001627"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='m-vehicle__btn m-vehicle__btn--plus']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:14:59.275187" elapsed="0.015993"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:14:59.293183" level="INFO">Clicking element '//button[@class='m-vehicle__btn m-vehicle__btn--plus']'.</msg>
+<arg>//button[@class='m-vehicle__btn m-vehicle__btn--plus']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:14:59.292183" elapsed="0.068467"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:04.362358" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:14:59.360650" elapsed="5.001708"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-id='optIn3']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:04.362358" elapsed="0.017995"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:04.381353" level="INFO">Clicking element '//input[@data-id='optIn3']'.</msg>
+<arg>//input[@data-id='optIn3']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:04.381353" elapsed="0.054243"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:09.437343" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:04.436599" elapsed="5.000744"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-id='optIn2']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:09.438370" elapsed="0.016982"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:09.456349" level="INFO">Clicking element '//input[@data-id='optIn2']'.</msg>
+<arg>//input[@data-id='optIn2']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:09.456349" elapsed="0.051864"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:14.509379" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:09.508213" elapsed="5.001166"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@data-id='goToNextStep']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:14.509978" elapsed="0.016051"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:14.526029" level="INFO">Clicking element '//button[@data-id='goToNextStep']'.</msg>
+<arg>//button[@data-id='goToNextStep']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:14.526029" elapsed="0.055360"/>
+</kw>
+<status status="PASS" start="2024-04-30T12:14:13.670084" elapsed="60.912304"/>
+</test>
+<test id="s1-t2" name="Carte" line="55">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//li[@class='TB0551']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:14.585905" elapsed="3.444277"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:18.031207" level="INFO">Clicking element '//li[@class='TB0551']'.</msg>
+<arg>//li[@class='TB0551']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:18.031207" elapsed="0.110481"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:23.142280" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:18.141688" elapsed="5.000592"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='owner']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:23.142800" elapsed="0.014106"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:23.157913" level="INFO">Typing text '123456789AF89' into text field '//input[@data-input='owner']'.</msg>
+<arg>//input[@data-input='owner']</arg>
+<arg>123456789AF89</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:23.156906" elapsed="0.136414"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:28.293391" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:23.293320" elapsed="5.000071"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//label[@for='National-60']</arg>
+<arg>timeout=20s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:28.293901" elapsed="0.014522"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:28.309420" level="INFO">Clicking element '//label[@for='National-60']'.</msg>
+<arg>//label[@for='National-60']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:28.308423" elapsed="0.052381"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:33.361983" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:28.361804" elapsed="5.000179"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//label[@for="01-61"]</arg>
+<arg>timeout=5s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:33.363501" elapsed="0.017644"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:33.382163" level="INFO">Clicking element '//label[@for='01-61']'.</msg>
+<arg>//label[@for='01-61']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:33.382163" elapsed="0.072962"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:38.456408" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:33.456137" elapsed="5.000271"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//label[@for="03-62"]</arg>
+<arg>timeout=5s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:38.456408" elapsed="0.013245"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:38.470742" level="INFO">Clicking element '//label[@for="03-62"]'.</msg>
+<arg>//label[@for="03-62"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:38.470742" elapsed="0.052918"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:43.525018" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:38.524654" elapsed="5.000364"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//label[@for='Liber-T-65 (18€-65 /-65 an)-65']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:43.526029" elapsed="0.014001"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:43.541028" level="INFO">Clicking element '//label[@for='Liber-T-65 (18€-65 /-65 an)-65']'.</msg>
+<arg>//label[@for='Liber-T-65 (18€-65 /-65 an)-65']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:43.540030" elapsed="0.060996"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:48.603343" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:43.602043" elapsed="5.001300"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='pinCode']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:48.603343" elapsed="0.015016"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:48.619359" level="INFO">Typing text '1234' into text field '//input[@data-input='pinCode']'.</msg>
+<arg>//input[@data-input='pinCode']</arg>
+<arg>1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:48.619359" elapsed="0.126061"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:15:53.747574" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:48.746423" elapsed="5.001151"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@name='gotoNextStep']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:53.748167" elapsed="0.014047"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:53.762214" level="INFO">Clicking element '//button[@name='gotoNextStep']'.</msg>
+<arg>//button[@name='gotoNextStep']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:53.762214" elapsed="0.096083"/>
+</kw>
+<status status="PASS" start="2024-04-30T12:15:14.584392" elapsed="39.274913"/>
+</test>
+<test id="s1-t3" name="Entreprise" line="89">
+<kw name="Generate Random String" owner="String">
+<msg time="2024-04-30T12:15:53.861678" level="INFO">${random_string} = 2701179532</msg>
+<var>${random_string}</var>
+<arg>10</arg>
+<arg>[NUMBERS]</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2024-04-30T12:15:53.861678" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='companyNumber']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:15:53.862690" elapsed="1.328473"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:15:55.192165" level="INFO">Typing text '2701179532' into text field '//input[@data-input='companyNumber']'.</msg>
+<arg>//input[@data-input='companyNumber']</arg>
+<arg>${random_string}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:15:55.192165" elapsed="0.107722"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:00.301149" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:15:55.300887" elapsed="5.000262"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='vatNumber']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:00.302163" elapsed="0.020997"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:00.324163" level="INFO">Typing text '2701179532' into text field '//input[@data-input='vatNumber']'.</msg>
+<arg>//input[@data-input='vatNumber']</arg>
+<arg>${random_string}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:00.324163" elapsed="0.142528"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:05.468213" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:00.467698" elapsed="5.000515"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='companyName']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:05.468725" elapsed="0.014007"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:05.483734" level="INFO">Typing text 'CGI' into text field '//input[@data-input='companyName']'.</msg>
+<arg>//input[@data-input='companyName']</arg>
+<arg>CGI</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:05.482732" elapsed="0.142685"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:10.626873" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:05.626401" elapsed="5.000472"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='addressStreet']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:10.626873" elapsed="0.013010"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:10.640885" level="INFO">Typing text 'Street' into text field '//input[@data-input='addressStreet']'.</msg>
+<arg>//input[@data-input='addressStreet']</arg>
+<arg>Street</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:10.639883" elapsed="0.112619"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:15.752979" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:10.752502" elapsed="5.000477"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='addressNumber']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:15.752979" elapsed="0.013628"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:15.767607" level="INFO">Typing text '1' into text field '//input [@data-input='addressNumber']'.</msg>
+<arg>//input [@data-input='addressNumber']</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:15.766607" elapsed="0.090318"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:20.858194" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:15.857936" elapsed="5.000258"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='addressBox']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:20.858194" elapsed="0.013021"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:20.871724" level="INFO">Typing text 'Box' into text field '//input[@data-input='addressBox']'.</msg>
+<arg>//input[@data-input='addressBox']</arg>
+<arg>Box</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:20.871724" elapsed="0.090624"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:25.964544" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:20.964348" elapsed="5.000196"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='postCode']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:25.965074" elapsed="0.012683"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:25.978878" level="INFO">Typing text '1000' into text field '//input[@data-input='postCode']'.</msg>
+<arg>//input[@data-input='postCode']</arg>
+<arg>1000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:25.978878" elapsed="0.093877"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:31.074336" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:26.074010" elapsed="5.000326"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//ul[@class='autocomplete-container']//li [1]</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:31.074847" elapsed="0.017523"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:31.093372" level="INFO">Clicking element '//ul[@class='autocomplete-container']//li [1]'.</msg>
+<arg>//ul[@class='autocomplete-container']//li [1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:31.093372" elapsed="0.069685"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:36.163330" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:31.163057" elapsed="5.000273"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//label[@for="MRS.-92"]</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:36.164361" elapsed="0.014041"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:36.178402" level="INFO">Clicking element '//label[@for="MRS.-92"]'.</msg>
+<arg>//label[@for="MRS.-92"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:36.178402" elapsed="0.053954"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:41.235085" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:36.233374" elapsed="5.001711"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='firstName']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:41.235085" elapsed="0.013006"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:41.249091" level="INFO">Typing text 'yas' into text field '//input[@data-input='firstName']'.</msg>
+<arg>//input[@data-input='firstName']</arg>
+<arg>yas</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:41.249091" elapsed="0.075405"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:46.325600" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:41.325496" elapsed="5.000104"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:46.326608" elapsed="0.014400"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:46.341008" level="INFO">Clicking element '//button[@class='btn btn-primary']'.</msg>
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:46.341008" elapsed="0.070033"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:51.413249" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:46.412068" elapsed="5.001181"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='lastName']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:51.413755" elapsed="0.013008"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:51.427762" level="INFO">Typing text 'yas' into text field '//input[@data-input='lastName']'.</msg>
+<arg>//input[@data-input='lastName']</arg>
+<arg>yas</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:51.427762" elapsed="0.077540"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:16:56.505607" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:51.505302" elapsed="5.000305"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:16:56.505607" elapsed="0.013696"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:16:56.520317" level="INFO">Clicking element '//button[@class='btn btn-primary']'.</msg>
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:16:56.520317" elapsed="0.073379"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:17:01.595904" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:16:56.594708" elapsed="5.001196"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//select[@data-id='companyFunction']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:17:01.596413" elapsed="0.013011"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:01.610423" level="INFO">Selecting options from selection list '//select[@data-id='companyFunction']' by value DRH.</msg>
+<arg>//select[@data-id='companyFunction']</arg>
+<arg>DRH</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2024-04-30T12:17:01.610423" elapsed="0.074015"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:17:06.686150" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:17:01.685436" elapsed="5.000714"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='phoneNumber']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:17:06.687157" elapsed="0.012003"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:06.700159" level="INFO">Typing text '0666666666' into text field '//input[@data-input='phoneNumber']'.</msg>
+<arg>//input[@data-input='phoneNumber']</arg>
+<arg>0666666666</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:17:06.700159" elapsed="0.092407"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:17:11.793769" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:17:06.793533" elapsed="5.000236"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:17:11.794281" elapsed="0.011014"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:11.805295" level="INFO">Clicking element '//button[@class='btn btn-primary']'.</msg>
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:17:11.805295" elapsed="0.059880"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:17:16.868729" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:17:11.867168" elapsed="5.001561"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//input[@data-input='iban']</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:17:16.869234" elapsed="0.015008"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:16.885245" level="INFO">Typing text '49519325843371' into text field '//input[@data-input='iban']'.</msg>
+<arg>//input[@data-input='iban']</arg>
+<arg>49519325843371</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:17:16.885245" elapsed="0.147491"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='btn btn-primary']</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:17:17.033727" elapsed="0.006999"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:17.041725" level="INFO">Clicking element '//button[@class='btn btn-primary']'.</msg>
+<arg>//button[@class='btn btn-primary']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:17:17.041725" elapsed="0.043672"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:17.085397" level="INFO">Clicking element '//*[@data-id="goToNextStep"]'.</msg>
+<arg>//*[@data-id="goToNextStep"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:17:17.085397" elapsed="0.049238"/>
+</kw>
+<status status="PASS" start="2024-04-30T12:15:53.860520" elapsed="83.275468"/>
+</test>
+<test id="s1-t4" name="Recapitulation" line="156">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:17:20.139332" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:17:17.139000" elapsed="3.000332"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//button[@class='m-btn m-btn--hollow']</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:17:20.139845" elapsed="5.704048"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:25.844895" level="INFO">Clicking element '//button[@class='m-btn m-btn--hollow']'.</msg>
+<arg>//button[@class='m-btn m-btn--hollow']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:17:25.844895" elapsed="0.070970"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:17:45.917521" level="INFO">Slept 20 seconds.</msg>
+<arg>20</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:17:25.916862" elapsed="20.000659"/>
+</kw>
+<status status="PASS" start="2024-04-30T12:17:17.138005" elapsed="28.780025"/>
+</test>
+<test id="s1-t5" name="Contrat" line="161">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:17:50.920889" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:17:45.920070" elapsed="5.000819"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//label[@for='disclosureAccepted']</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:17:50.922926" elapsed="6.092480"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:17:57.016433" level="INFO">Clicking element '//label[@for='disclosureAccepted']'.</msg>
+<arg>//label[@for='disclosureAccepted']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:17:57.016433" elapsed="0.136700"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:02.154662" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:17:57.153133" elapsed="5.001529"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//button[contains(@class,'btn btn-main')])[3]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:02.155677" elapsed="0.013995"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:02.170747" level="INFO">Clicking element '(//button[contains(@class,'btn btn-main')])[3]'.</msg>
+<arg>(//button[contains(@class,'btn btn-main')])[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:02.170747" elapsed="0.135944"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:07.307950" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:02.306691" elapsed="5.001259"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[1]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:07.307950" elapsed="0.013330"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:07.322283" level="INFO">Clicking element '(//div[contains(@class,'signature-tab-content tab-button-yellow')])[1]'.</msg>
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:07.322283" elapsed="0.137823"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:12.460520" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:07.460106" elapsed="5.000414"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//button[contains(@class,'btn btn-lg')])[3]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:12.461031" elapsed="0.016480"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:12.479514" level="INFO">Clicking element '(//button[contains(@class,'btn btn-lg')])[3]'.</msg>
+<arg>(//button[contains(@class,'btn btn-lg')])[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:12.478512" elapsed="0.067955"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:22.547891" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:12.547489" elapsed="10.000402"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[2]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:22.547891" elapsed="0.017471"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:22.566361" level="INFO">Clicking element '(//div[contains(@class,'signature-tab-content tab-button-yellow')])[2]'.</msg>
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:22.566361" elapsed="0.093093"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:27.659946" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:22.659536" elapsed="5.000410"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[3]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:27.660551" elapsed="0.018269"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:27.679860" level="INFO">Clicking element '(//div[contains(@class,'signature-tab-content tab-button-yellow')])[3]'.</msg>
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:27.679860" elapsed="0.089424"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:32.770647" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:27.770290" elapsed="5.000357"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[4]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:32.770647" elapsed="0.014079"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:32.785726" level="INFO">Clicking element '(//div[contains(@class,'signature-tab-content tab-button-yellow')])[4]'.</msg>
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[4]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:32.785726" elapsed="0.058029"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:37.845418" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:32.845268" elapsed="5.000150"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[5]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:37.845418" elapsed="0.018954"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:37.866400" level="INFO">Clicking element '(//div[contains(@class,'signature-tab-content tab-button-yellow')])[5]'.</msg>
+<arg>(//div[contains(@class,'signature-tab-content tab-button-yellow')])[5]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:37.865380" elapsed="0.182779"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:43.051438" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:38.051112" elapsed="5.000326"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>(//button[contains(@class,'documents-finish-button btn')])[1]</arg>
+<arg>timeout=20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-30T12:18:43.051948" elapsed="0.016046"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-30T12:18:43.068988" level="INFO">Clicking element '(//button[contains(@class,'documents-finish-button btn')])[1]'.</msg>
+<arg>(//button[contains(@class,'documents-finish-button btn')])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-30T12:18:43.068988" elapsed="0.077562"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:18:48.146753" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:43.146550" elapsed="5.000203"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-30T12:19:48.147153" level="INFO">Slept 1 minute.</msg>
+<arg>60</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-30T12:18:48.146753" elapsed="60.000400"/>
+</kw>
+<status status="PASS" start="2024-04-30T12:17:45.919041" elapsed="122.228112"/>
+</test>
+<status status="PASS" start="2024-04-30T12:14:13.425290" elapsed="334.724287"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Belg">Belg</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-04-30T12:14:13.667085" level="ERROR">Error in file 'C:\Users\yasmine.hilali\PycharmProjects\diac\Pprod\B2B\Belg.robot' on line 11: Setting variable '${company_number}' failed: Variable '${random_string}' not found.</msg>
+<msg time="2024-04-30T12:14:13.669088" level="ERROR">Error in file 'C:\Users\yasmine.hilali\PycharmProjects\diac\Pprod\B2B\Belg.robot' on line 12: Setting variable '${vat_number}' failed: Variable '${random_string}' not found.</msg>
+</errors>
+</robot>

@@ -1,0 +1,21 @@
+1713169032148	geckodriver	INFO	Listening on 127.0.0.1:56755
+1713169035245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileaD8wMi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713169036215	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713169036482	Marionette	INFO	Listening on port 56768
+WebDriver BiDi listening on ws://127.0.0.1:56756
+Read port: 56768
+1713169036952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56756/devtools/browser/df8a2c56-4500-468c-b054-d411446b01ba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1713169044804	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082672, line 127: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082672:127:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082672:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082672:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404100101/slotcar_library_fy2021.js?bust=31082672:33:281
+
+1713169052922	Marionette	INFO	Stopped listening on port 56768
+Dynamically enable window occlusion 1

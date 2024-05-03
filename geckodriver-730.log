@@ -1,0 +1,32 @@
+1713186680925	geckodriver	INFO	Listening on 127.0.0.1:56503
+1713186683987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56504" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilethL7Bs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713186684725	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713186684858	Marionette	INFO	Listening on port 56518
+WebDriver BiDi listening on ws://127.0.0.1:56504
+Read port: 56518
+1713186685110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56504/devtools/browser/e0bcd90c-2980-4f0f-9824-9915053d3ac8
+1713186717198	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js line 319 > eval, line 1: Script terminated by timeout at:
+getPayload@https://diac--preprod.sandbox.my.site.com/components/instrumentation/o11ySupport.js:1:16626
+getPayloadFromProvider@https://diac--preprod.sandbox.my.site.com/components/o11y/shared.js:1:11509
+addLog@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:51433
+_logInternal@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:33629
+_logActivity@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:35505
+_handleActivityStop@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:35438
+_stopInternal@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:24929
+stop/<@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:23962
+tryCatch@https://diac--preprod.sandbox.my.site.com/components/o11y/shared.js:1:12107
+stop@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:23386
+_activityHandler@https://diac--preprod.sandbox.my.site.com/components/o11y/web_vitals.js:1:5743
+l/<@https://diac--preprod.sandbox.my.site.com/components/o11y/web_vitals.js:1:1104
+o@https://diac--preprod.sandbox.my.site.com/components/o11y/web_vitals.js:1:3678
+n@https://diac--preprod.sandbox.my.site.com/components/o11y/web_vitals.js:1:734
+t@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5722
+
+1713186838605	Marionette	INFO	Stopped listening on port 56518
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

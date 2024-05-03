@@ -1,0 +1,15 @@
+1713188735633	geckodriver	INFO	Listening on 127.0.0.1:56919
+1713188738704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56920" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileWjInxy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713188739334	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713188739491	Marionette	INFO	Listening on port 56929
+WebDriver BiDi listening on ws://127.0.0.1:56920
+Read port: 56929
+1713188739725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56920/devtools/browser/d67f2f23-79a6-4b62-99fb-51eb4dee6d1a
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+1713188763174	Marionette	INFO	Stopped listening on port 56929
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

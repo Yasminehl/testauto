@@ -1,0 +1,19 @@
+1712569935090	geckodriver	INFO	Listening on 127.0.0.1:55883
+1712569938142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofile9rMZX1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712569938778	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712569938900	Marionette	INFO	Listening on port 55901
+WebDriver BiDi listening on ws://127.0.0.1:55884
+Read port: 55901
+1712569939099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55884/devtools/browser/259aa820-8e7d-4890-a45d-b003153d8a5f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712569943422	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712569948302	Marionette	INFO	Stopped listening on port 55901
+JavaScript warning: https://fundingchoicesmessages.google.com/f/AGSKWxWjbF7etvtOPOKkuFjtLcBjhiRsjEGocqkT4ibe1vHKfI5xIMPhoULxwEoPuiv6eP5LTQlCLjrTmqY1zl0yV5qp0YPHSLlWppSdP-aI8ORBsrLofWPNwkbffyDYDPTvN4V2FkWwkA==?fccs=W251bGwsbnVsbCxbIkNQOHdBTUFQOHdBTUFFc0FDQkZSQXZFb0FQX2dBRVBnQUFxSUlOSkQ3RDdGYlNGQ3dINXphTHNBTUFoSFJzQ0FRb1FBQUFTQkFtQUJRQUtRSUFRQ2drQVFGQVNnQkFBQ0FBQUFJQ1pCSVFJRUNBQUFDVUFBUUFBQUFBQUVBQUFBQUFBSUlBQUFnQUVBQUFBSUFBQUNBQUFBRUFBSUFBQUFFQUFBbUFBQUFJSUFDQUFBaEFBQUFBQUFBQUFBQUFBQUFnQUFBQUFBQUFBQUFBQUFBQUFBQVFPaFFEMkYySzJrS0ZrUENtUVdZQVFCQ2lqWUVBaFFBQUFBa0NCSUFBZ0FVZ1FBZ0ZJSUFnQUlGQUFBQUFBQUFBUUVnQ1FBQVFBQkFBQUlBQ2dBQUFBQUFJQUFBQUFBQVFRQUFBQUFJQUFBQUFBQUFFQUFBQUFBQVFBQUFBSUFBQkVnQ0FBUVFBRUFBQUFBQUFRQUFBQUFBQUFBQUFCQUFBLmNBQUFBQUFBQUFBIiwiMn4yMDcyLjcwLjg5LjkzLjEwOC4xMjIuMTQ5LjE5Ni4yMjUzLjIyOTkuMjU5LjIzNTcuMzExLjMxMy4zMjMuMjM3My4zMzguMzU4LjI0MTUuNDE1LjQ0OS4yNTA2LjI1MjYuNDg2LjQ5NC40OTUuMjU2OC4yNTcxLjI1NzUuNTQwLjU3NC4yNjI0LjYwOS4yNjc3Ljg2NC45ODEuMTAyOS4xMDQ4LjEwNTEuMTA5NS4xMDk3LjExMjYuMTIwNS4xMjExLjEyNzYuMTMwMS4xMzY1LjE0MTUuMTQyMy4xNDQ5LjE1NzAuMTU3Ny4xNTk4LjE2NTEuMTcxNi4xNzM1LjE3NTMuMTc2NS4xODcwLjE4NzguMTg4OS4xODk2LjE5NTh-ZHYuIl0sbnVsbCxudWxsLG51bGwsWzE3MTI1Njk5NDcsNTcwMDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw4XSxudWxsLDEsbnVsbCwiZnIiXSwiaHR0cHM6Ly95b3BtYWlsLmNvbS9mci93bSIsbnVsbCxbWzgsInNHYnU5QUdTZ1lnIl0sWzksImZyIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIyIl1dXQ, line 7: Script terminated by timeout at:
+oo@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.sGbu9AGSgYg.es5.O/d=1/exm=kernel_loader,loader_js_executable,web_iab_tcf_v2_wall_executable/ed=1/rs=AJlcJMzgAixpUxXtL9Ep7URHetSKKiEWXQ/m=ad_blocking_detection_executable:7:1459
+oo/<@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.sGbu9AGSgYg.es5.O/d=1/exm=kernel_loader,loader_js_executable,web_iab_tcf_v2_wall_executable/ed=1/rs=AJlcJMzgAixpUxXtL9Ep7URHetSKKiEWXQ/m=ad_blocking_detection_executable:7:1630
+
+Dynamically enable window occlusion 1

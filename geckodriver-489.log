@@ -1,0 +1,25 @@
+1712675502905	geckodriver	INFO	Listening on 127.0.0.1:64453
+1712675505976	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64454" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilejoeoAP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712675506732	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712675506933	Marionette	INFO	Listening on port 64466
+WebDriver BiDi listening on ws://127.0.0.1:64454
+Read port: 64466
+1712675507302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64454/devtools/browser/1b7963d6-987d-4dca-850f-f02d97611cfa
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0UeemWAcXz7TZ3PltUmdVnFqxMi9IIyAQ1Ox78vPL74.js line 2 > eval line 4085 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712675516043	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 2619 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 1251 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js, line 126: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js:126:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js:33:281
+
+1712675520461	Marionette	INFO	Stopped listening on port 64466
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

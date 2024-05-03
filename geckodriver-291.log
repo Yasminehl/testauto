@@ -1,0 +1,19 @@
+1712586487050	geckodriver	INFO	Listening on 127.0.0.1:59785
+1712586490130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59786" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilev28RPg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712586490847	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712586491032	Marionette	INFO	Listening on port 59797
+WebDriver BiDi listening on ws://127.0.0.1:59786
+Read port: 59797
+1712586491323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59786/devtools/browser/c0b47e09-dac1-4a96-b6ae-1cbd5e2de88b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712586497104	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712586498893	Marionette	INFO	Stopped listening on port 59797
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/show_ads_impl_fy2021.js?bust=31082589, line 555: Script terminated by timeout at:
+kP/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/show_ads_impl_fy2021.js?bust=31082589:555:94
+
+Dynamically enable window occlusion 1
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 327 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

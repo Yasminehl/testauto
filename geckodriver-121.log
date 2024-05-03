@@ -1,0 +1,19 @@
+1712060696590	geckodriver	INFO	Listening on 127.0.0.1:65449
+1712060699672	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65450" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileDPi5Ie"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712060700456	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712060700634	Marionette	INFO	Listening on port 65462
+WebDriver BiDi listening on ws://127.0.0.1:65450
+Read port: 65462
+1712060700961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65450/devtools/browser/bccf38fe-56d2-48d4-81ee-e11c10a39f00
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 50: Script terminated by timeout at:
+ownKeys@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:50:9320
+buildSessionData@https://diac--preprod.sandbox.my.site.com/beb2b/resource/1701180846000/MainResources/scripts.js:11:33
+@https://diac--preprod.sandbox.my.site.com/sfsites/c/resource/MainResources/pagescripts.js?v=3:47:46
+
+1712060714524	Marionette	INFO	Stopped listening on port 65462
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

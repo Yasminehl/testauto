@@ -1,0 +1,21 @@
+1712933323284	geckodriver	INFO	Listening on 127.0.0.1:50370
+1712933326358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileZ7sV5D"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712933327057	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712933327228	Marionette	INFO	Listening on port 50397
+WebDriver BiDi listening on ws://127.0.0.1:50371
+Read port: 50397
+1712933327535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50371/devtools/browser/8fc3930b-b02c-440a-8103-42ffb01a0990
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 4982 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712933359917	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js?bust=31082656, line 126: Script terminated by timeout at:
+qi/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js?bust=31082656:126:389
+zd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js?bust=31082656:33:292
+yd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js?bust=31082656:33:92
+zd/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404020101/slotcar_library_fy2021.js?bust=31082656:33:281
+
+1712933389593	Marionette	INFO	Stopped listening on port 50397
+Dynamically enable window occlusion 1

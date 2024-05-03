@@ -1,0 +1,25 @@
+1712051651983	geckodriver	INFO	Listening on 127.0.0.1:50126
+1712051655053	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofile2ImpVW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712051655668	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712051655880	Marionette	INFO	Listening on port 50138
+WebDriver BiDi listening on ws://127.0.0.1:50127
+Read port: 50138
+1712051656215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50127/devtools/browser/05b46504-2433-449e-b263-304654d4d0fc
+1712051688819	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712052717325	Marionette	INFO	Stopped listening on port 50138
+Dynamically enable window occlusion 1
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 221: Script terminated by timeout at:
+A/<@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:221:276
+NH@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:740:314
+KH@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:733:374
+JH@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:732:367
+D.Vd@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:732:203
+IH@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:732:136
+b@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:981:404
+t@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5722
+
+!!! error running onStopped callback: TypeError: callback is not a function

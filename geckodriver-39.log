@@ -1,0 +1,13 @@
+1712048709182	geckodriver	INFO	Listening on 127.0.0.1:61485
+1712048712204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61486" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilekf6P3v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712048712949	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712048713333	Marionette	INFO	Listening on port 61500
+WebDriver BiDi listening on ws://127.0.0.1:61486
+Read port: 61500
+1712048713754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61486/devtools/browser/a426d2f7-d368-4d01-9601-cc5f8952539b
+1712048725413	Marionette	INFO	Stopped listening on port 61500
+Dynamically enable window occlusion 1

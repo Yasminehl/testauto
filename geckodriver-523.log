@@ -1,0 +1,20 @@
+1712882013354	geckodriver	INFO	Listening on 127.0.0.1:59210
+1712882016388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofile5h6ofX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712882016939	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712882017057	Marionette	INFO	Listening on port 59218
+WebDriver BiDi listening on ws://127.0.0.1:59211
+Read port: 59218
+1712882017261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59211/devtools/browser/d8997e90-733e-4811-af97-d89da109940f
+1712882047878	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712882050982	Marionette	INFO	Stopped listening on port 59218
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown

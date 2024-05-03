@@ -1,0 +1,17 @@
+1712671742860	geckodriver	INFO	Listening on 127.0.0.1:55791
+1712671745935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55792" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileQ2jtat"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712671746655	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712671746862	Marionette	INFO	Listening on port 55802
+WebDriver BiDi listening on ws://127.0.0.1:55792
+Read port: 55802
+1712671747187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55792/devtools/browser/e1cafe63-b9f3-40fa-90c8-ffec1e9cda42
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 29: Script terminated by timeout at:
+t@https://diac--preprod.sandbox.my.site.com/lub2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5668
+
+1712671767010	Marionette	INFO	Stopped listening on port 55802
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

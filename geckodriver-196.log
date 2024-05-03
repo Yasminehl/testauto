@@ -1,0 +1,33 @@
+1712571152528	geckodriver	INFO	Listening on 127.0.0.1:59338
+1712571155572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileXIRDkb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712571156151	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712571156276	Marionette	INFO	Listening on port 59351
+WebDriver BiDi listening on ws://127.0.0.1:59339
+Read port: 59351
+1712571156442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59339/devtools/browser/d25665b6-ee55-4e92-8cc7-9aa932f9a78c
+1712571174389	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712571186183	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js, line 1959: Script terminated by timeout at:
+mpa@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:1959:17
+iB@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:1947:155
+kB@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:1950:61
+g.ENa@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:4094:42
+g.k.KR@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:12718:115
+g.k.sendAbandonmentPing@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:12605:107
+g.k.sendAbandonmentPing@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:10745:62
+MT/a.state.B[b]@https://www.youtube-nocookie.com/s/player/1ced3a71/player_ias.vflset/fr_FR/base.js:4867:53
+xx/<@https://www.youtube-nocookie.com/s/player/1ced3a71/www-embed-player.vflset/www-embed-player.js:1848:106
+Kx@https://www.youtube-nocookie.com/s/player/1ced3a71/www-embed-player.vflset/www-embed-player.js:1884:46
+@https://www.youtube-nocookie.com/s/player/1ced3a71/www-embed-player.vflset/www-embed-player.js:1893:137
+cl/<@https://www.youtube-nocookie.com/s/player/1ced3a71/www-embed-player.vflset/www-embed-player.js:884:63
+
+JavaScript warning: https://www.google.com/js/th/vs3xdaE-z_cYrEOOMyNWJGWn5nS_axodSnlzQWZMquQ.js line 2 > eval line 7044 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/vs3xdaE-z_cYrEOOMyNWJGWn5nS_axodSnlzQWZMquQ.js line 2 > eval line 3563 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/vs3xdaE-z_cYrEOOMyNWJGWn5nS_axodSnlzQWZMquQ.js line 2 > eval line 6850 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712571232767	Marionette	INFO	Stopped listening on port 59351
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

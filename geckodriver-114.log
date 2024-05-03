@@ -1,0 +1,25 @@
+1712059796456	geckodriver	INFO	Listening on 127.0.0.1:63769
+1712059799508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63770" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilegUJgJj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712059800287	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712059800514	Marionette	INFO	Listening on port 63779
+Read port: 63779
+WebDriver BiDi listening on ws://127.0.0.1:63770
+1712059800645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63770/devtools/browser/7243df9a-6835-4eb9-b4be-130d7825d3ef
+1712059831963	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://diac--preprod.sandbox.my.site.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://diac--preprod.sandbox.my.site.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://diac--preprod.sandbox.my.site.com."
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js, line 29: Script terminated by timeout at:
+_n/<@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5572
+_n@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5615
+value@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:47:6772
+n@https://diac--preprod.sandbox.my.site.com/components/o11y/web_vitals.js:1:743
+t@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/VXZJYkJtTFAtX2RjOGFiVmZaelpqQTk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5722
+
+1712068946799	Marionette	INFO	Stopped listening on port 63779
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

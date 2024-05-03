@@ -1,0 +1,20 @@
+1713168733641	geckodriver	INFO	Listening on 127.0.0.1:55619
+1713168736740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55620" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilevzGOul"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713168737489	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713168737658	Marionette	INFO	Listening on port 55637
+WebDriver BiDi listening on ws://127.0.0.1:55620
+Read port: 55637
+1713168737986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55620/devtools/browser/1324bcd0-c252-483d-93b0-072b0b7ffb01
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1713168743615	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713168745705	Marionette	INFO	Stopped listening on port 55637
+JavaScript warning: https://yopmail.com/ver/9.2/webmail.js, line 1: Script terminated by timeout at:
+shownoinb/<@https://yopmail.com/ver/9.2/webmail.js:1:12892
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

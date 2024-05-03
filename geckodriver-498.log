@@ -1,0 +1,21 @@
+1712875371022	geckodriver	INFO	Listening on 127.0.0.1:54651
+1712875374061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54652" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilekn8GF0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712875374591	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712875374717	Marionette	INFO	Listening on port 54669
+WebDriver BiDi listening on ws://127.0.0.1:54652
+Read port: 54669
+1712875374914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54652/devtools/browser/307e1400-165c-433e-8cdf-013a317f9730
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712875379429	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 4480 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 6529 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712875381847	Marionette	INFO	Stopped listening on port 54669
+JavaScript warning: https://fundingchoicesmessages.google.com/f/AGSKWxUuVNKNZklDBolCQ4WWvQfspY7RDfp5q45-t9OoA2OJEYwS4tTbO5CUvIfLAIUNhorNt-93vrG-dvUkCRNz1FelPpH-NWaiqXGbXhcHE-Sj9JLkPGRxPnIXxsQPP9ZRz0RuXRtd3g==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzEyODc1MzgxLDQxNTAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly95b3BtYWlsLmNvbS9mci93bSIsbnVsbCxbWzgsIjZzTmFUaGFNWHE4Il0sWzksImZyIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIyIl1dXQ, line 7: Script terminated by timeout at:
+oo@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.6sNaThaMXq8.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMxkalihKAxJBWZ5Tm13IvOsYMJ-SQ/m=ad_blocking_detection_executable:7:1527
+oo/<@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.fr.6sNaThaMXq8.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMxkalihKAxJBWZ5Tm13IvOsYMJ-SQ/m=ad_blocking_detection_executable:7:1630
+
+Dynamically enable window occlusion 1

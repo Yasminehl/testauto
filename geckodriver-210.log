@@ -1,0 +1,16 @@
+1712571873622	geckodriver	INFO	Listening on 127.0.0.1:61427
+1712571876670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61428" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileyiObhD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712571877224	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712571877349	Marionette	INFO	Listening on port 61438
+WebDriver BiDi listening on ws://127.0.0.1:61428
+Read port: 61438
+1712571877537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61428/devtools/browser/d9c99b64-053e-40a7-af03-1ea18f6b139b
+1712571897889	Marionette	INFO	Stopped listening on port 61438
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+Exiting due to channel error.

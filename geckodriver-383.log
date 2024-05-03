@@ -1,0 +1,22 @@
+1712653684980	geckodriver	INFO	Listening on 127.0.0.1:58837
+1712653688067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58838" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilePa9ez9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712653688838	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712653688996	Marionette	INFO	Listening on port 58855
+WebDriver BiDi listening on ws://127.0.0.1:58838
+Read port: 58855
+1712653689361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58838/devtools/browser/df9c9cc5-5052-4e8d-99c1-302d31c3c7ce
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 1100 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588, line 127: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:127:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/slotcar_library_fy2021.js?bust=31082588:33:281
+
+1712653699218	Marionette	INFO	Stopped listening on port 58855
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

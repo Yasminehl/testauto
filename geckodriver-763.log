@@ -1,0 +1,19 @@
+1713256712666	geckodriver	INFO	Listening on 127.0.0.1:63815
+1713256715723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63816" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileI5BWue"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713256716308	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713256716432	Marionette	INFO	Listening on port 63831
+Read port: 63831
+WebDriver BiDi listening on ws://127.0.0.1:63816
+1713256716515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63816/devtools/browser/873157e5-2b27-4863-9f72-7d3c977e9d8b
+1713256746424	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713256747585	Marionette	INFO	Stopped listening on port 63831
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/translations-wasm getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))

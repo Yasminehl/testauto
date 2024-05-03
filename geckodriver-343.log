@@ -1,0 +1,19 @@
+1712588880852	geckodriver	INFO	Listening on 127.0.0.1:50456
+1712588883904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50457" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilebovsd8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712588884643	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712588884847	Marionette	INFO	Listening on port 50470
+WebDriver BiDi listening on ws://127.0.0.1:50457
+Read port: 50470
+1712588885147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50457/devtools/browser/9471731d-4337-4956-b3dd-6b334782c4ad
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js?bust=31082504, line 126: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js?bust=31082504:126:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js?bust=31082504:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js?bust=31082504:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404030101/slotcar_library_fy2021.js?bust=31082504:33:281
+
+1712588895324	Marionette	INFO	Stopped listening on port 50470
+Dynamically enable window occlusion 1

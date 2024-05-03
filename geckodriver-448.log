@@ -1,0 +1,30 @@
+1712672579786	geckodriver	INFO	Listening on 127.0.0.1:57586
+1712672582883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileS5hatE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712672583672	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712672583906	Marionette	INFO	Listening on port 57596
+WebDriver BiDi listening on ws://127.0.0.1:57587
+Read port: 57596
+1712672584258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57587/devtools/browser/d6a8c97a-30b1-4381-9cf3-42cf190f7fff
+JavaScript error: https://yopmail.com/fr/domain?d=some, line 1: TypeError: window.parent.Gelt is not a function
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: CptonKeyUp is not defined
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: CptonKeyUp is not defined
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: CptonKeyUp is not defined
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: CptonKeyUp is not defined
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: CptonKeyUp is not defined
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: CptonKeyUp is not defined
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: CptonKeyUp is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: chkl is not defined
+JavaScript error: https://yopmail.com/fr/, line 1: ReferenceError: chkl is not defined
+1712672593227	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712672595300	Marionette	INFO	Stopped listening on port 57596
+JavaScript warning: https://yopmail.com/ver/9.2/webmail.js, line 1: Script terminated by timeout at:
+shownoinb/<@https://yopmail.com/ver/9.2/webmail.js:1:12892
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

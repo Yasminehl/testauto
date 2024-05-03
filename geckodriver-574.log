@@ -1,0 +1,18 @@
+1712887229913	geckodriver	INFO	Listening on 127.0.0.1:57996
+1712887232970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileZjgksq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712887233498	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712887233638	Marionette	INFO	Listening on port 58004
+WebDriver BiDi listening on ws://127.0.0.1:57997
+Read port: 58004
+1712887233824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57997/devtools/browser/750ee5c3-2b55-4b51-ac40-b0bcdd57a182
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712887237670	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712887238544	Marionette	INFO	Stopped listening on port 58004
+JavaScript warning: https://yopmail.com/ver/9.2/webmail.js, line 1: Script terminated by timeout at:
+refr/nIId<@https://yopmail.com/ver/9.2/webmail.js:1:10704
+
+Dynamically enable window occlusion 1

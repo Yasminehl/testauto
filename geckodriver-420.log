@@ -1,0 +1,22 @@
+1712661196620	geckodriver	INFO	Listening on 127.0.0.1:57213
+1712661199698	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57214" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofile1gBghi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712661200294	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712661200430	Marionette	INFO	Listening on port 57224
+WebDriver BiDi listening on ws://127.0.0.1:57214
+Read port: 57224
+1712661200700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57214/devtools/browser/0a227439-4cd6-4b96-889c-14f0b01d0ae1
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0UeemWAcXz7TZ3PltUmdVnFqxMi9IIyAQ1Ox78vPL74.js line 2 > eval line 4312 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/879366/html_inpage_rendering_lib_200_278.js, line 212: Error: vignette: no interstitial API
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 2909 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589, line 127: Script terminated by timeout at:
+ri/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:127:389
+Ad/</<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:33:292
+zd@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:33:92
+Ad/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404080101/slotcar_library_fy2021.js?bust=31082589:33:281
+
+1712661213957	Marionette	INFO	Stopped listening on port 57224
+Dynamically enable window occlusion 1

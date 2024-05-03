@@ -1,0 +1,16 @@
+1712572011946	geckodriver	INFO	Listening on 127.0.0.1:61700
+1712572015006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofilejTRPRv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712572015556	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712572015689	Marionette	INFO	Listening on port 61712
+WebDriver BiDi listening on ws://127.0.0.1:61701
+Read port: 61712
+1712572015880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61701/devtools/browser/c316198c-4bb5-4762-b03c-854cd5685ac5
+1712572045597	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\YASMIN~1.HIL\AppData\Local\Temp\rust_mozprofilejTRPRv\bookmarkbackups\bookmarks-2024-04-08.jsonlz4) because it does not exist
+1712573008627	Marionette	INFO	Stopped listening on port 61712
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

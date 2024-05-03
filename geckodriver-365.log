@@ -1,0 +1,21 @@
+1712652783216	geckodriver	INFO	Listening on 127.0.0.1:56559
+1712652786263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56560" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileEfOJiB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712652786951	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712652787139	Marionette	INFO	Listening on port 56570
+WebDriver BiDi listening on ws://127.0.0.1:56560
+Read port: 56570
+1712652787408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56560/devtools/browser/bbb2d070-61d4-4c6e-8038-e41bbc5f4853
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712652792744	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712652794942	Marionette	INFO	Stopped listening on port 56570
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/show_ads_impl_fy2021.js?bust=31082588, line 555: Script terminated by timeout at:
+dP/<@https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404040101/show_ads_impl_fy2021.js?bust=31082588:555:94
+
+JavaScript warning: https://cdn.ampproject.org/rtv/012404020207000/v0/amp-analytics-0.1.mjs, line 2: Script terminated by timeout at:
+CRt@https://cdn.ampproject.org/rtv/012404020207000/v0/amp-analytics-0.1.mjs:2:88862
+
+Dynamically enable window occlusion 1

@@ -1,0 +1,16 @@
+1712577048511	geckodriver	INFO	Listening on 127.0.0.1:52796
+1712577051577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofile0lf00a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712577052178	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712577052332	Marionette	INFO	Listening on port 52807
+WebDriver BiDi listening on ws://127.0.0.1:52797
+Read port: 52807
+1712577052589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52797/devtools/browser/2b5de230-ceeb-4cf7-9478-310f137ad286
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 2239 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712577062239	Marionette	INFO	Stopped listening on port 52807
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

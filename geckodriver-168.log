@@ -1,0 +1,33 @@
+1712568143425	geckodriver	INFO	Listening on 127.0.0.1:53054
+1712568146482	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileOarFjy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712568147295	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712568147545	Marionette	INFO	Listening on port 53083
+WebDriver BiDi listening on ws://127.0.0.1:53055
+Read port: 53083
+1712568147865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53055/devtools/browser/153f400d-3e39-4465-9730-4f6d58a4d113
+1712568177333	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712568886661	Marionette	INFO	Stopped listening on port 53083
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js line 319 > eval, line 1: Script terminated by timeout at:
+getElements@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:29939
+getBucketHistograms@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:31629
+getBucketHistograms@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:38448
+_getAllBucketHistograms/t<@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:54607
+_getAllBucketHistograms@https://diac--preprod.sandbox.my.site.com/components/o11y/client.js:1:54598
+extractMetricsIntoArray@https://diac--preprod.sandbox.my.site.com/components/instrumentation/o11ySupport.js:1:1692
+collectTelemetryMetrics/<@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:50:526
+o11yFunc@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:3:45
+collectTelemetryMetrics@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:50:479
+sendBeacon/<@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:16:481
+initializeBeacon/this.preservedAuraCallback<@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:3:437
+b@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:981:72
+sendBeacon@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:16:406
+onWindowClose@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:15:300
+b@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:981:72
+t@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5722
+

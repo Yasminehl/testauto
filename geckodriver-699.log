@@ -1,0 +1,18 @@
+1713176660616	geckodriver	INFO	Listening on 127.0.0.1:52011
+1713176663661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52012" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileBSxZm1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713176664228	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713176664354	Marionette	INFO	Listening on port 52021
+WebDriver BiDi listening on ws://127.0.0.1:52012
+Read port: 52021
+1713176664534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52012/devtools/browser/a59fce89-2329-4491-87f7-a9f710cd98d7
+1713176695736	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1713176761414	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713176796963	Marionette	INFO	Stopped listening on port 52021
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

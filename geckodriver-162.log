@@ -1,0 +1,52 @@
+1712566428351	geckodriver	INFO	Listening on 127.0.0.1:50471
+1712566431415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50472" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileyUfjnY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712566432074	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712566432253	Marionette	INFO	Listening on port 50479
+WebDriver BiDi listening on ws://127.0.0.1:50472
+Read port: 50479
+1712566432568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50472/devtools/browser/3e50bd64-c705-4b24-a1d3-b0a649a40284
+1712566463424	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: "Tried to send a 'getApplied' method reply on an already destroyed actor 'pagestyle'"
+1712568886661	Marionette	INFO	Stopped listening on port 50479
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript warning: https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js line 319 > eval, line 8: Script terminated by timeout at:
+[33]</s.isReserved@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:50114
+[33]</s.safeProp@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:50176
+[12]</r.exports@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:13793
+[31]</b.prototype.setup@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:47910
+[31]</b.prototype.verify@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:48637
+validate@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:63463
+encode@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:63572
+processRawLogMessage@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:64426
+l/</<@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:64761
+l/<@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:64752
+l@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:64711
+c@https://diac--preprod.sandbox.my.site.com/components/o11y/collectors.js:8:65003
+r@https://diac--preprod.sandbox.my.site.com/components/instrumentation/o11ySecondaryLoaderWithImports.js:1:350
+getEncodedO11yLogs@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:11:64
+sendBeacon/</<@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:17:82
+o11yFunc@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:3:45
+sendBeacon/<@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:17:55
+initializeBeacon/this.preservedAuraCallback<@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:3:437
+b@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:981:72
+sendBeacon@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:16:406
+onWindowClose@https://diac--preprod.sandbox.my.site.com/libraries/instrumentation/beaconLib.BeaconLibrary.js:15:300
+b@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:981:72
+t@https://diac--preprod.sandbox.my.site.com/beb2b/s/sfsites/auraFW/javascript/ZDROWDdLOGtXcTZqSWZiU19ZaDJFdzk4bkk0bVJhZGJCWE9mUC1IZXZRbmcyNDguMTAuNS01LjAuMTA/aura_prod.js:29:5722
+

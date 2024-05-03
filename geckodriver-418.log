@@ -1,0 +1,17 @@
+1712661106657	geckodriver	INFO	Listening on 127.0.0.1:56763
+1712661109739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofileidNvaw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712661110315	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712661110485	Marionette	INFO	Listening on port 56773
+WebDriver BiDi listening on ws://127.0.0.1:56764
+Read port: 56773
+1712661110743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56764/devtools/browser/a2e8f725-c7af-4f45-8e87-52ec02ec5ba4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712661115710	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712661118395	Marionette	INFO	Stopped listening on port 56773
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

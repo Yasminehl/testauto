@@ -1,0 +1,17 @@
+1712587725557	geckodriver	INFO	Listening on 127.0.0.1:62678
+1712587728632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\YASMIN~1.HIL\\AppData\\Local\\Temp\\rust_mozprofile3ZA05T"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712587729480	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712587729701	Marionette	INFO	Listening on port 62691
+WebDriver BiDi listening on ws://127.0.0.1:62679
+Read port: 62691
+1712587730023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62679/devtools/browser/db76bddd-905b-4ed9-88f8-bc512a8594c6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+1712587736089	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/APV3dACaA-z2K_GiiKi9AtRZMcv8tkt2uQCJ7vSl1g4.js line 2 > eval line 5673 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712587742136	Marionette	INFO	Stopped listening on port 62691
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
